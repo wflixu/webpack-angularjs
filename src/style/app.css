@@ -8,6 +8,13 @@ a {
   color: #03A9F4;
 }
 
+.test{
+  border:2px solid burlywood;
+  /* width: 400px; */
+  height: 40px;
+  font-size: 40px;
+}
+
 main {
   padding: 1em;
   font-family: Arial, Helvetica, sans-serif;
@@ -20,3 +27,38 @@ footer {
   text-align: center;
   font-size: 0.8em;
 }
+li {
+  background-color: bisque;
+  border:1px solid #999;
+}
+
+.fade-in{
+  transition: 2s linear all;
+}
+.fade-in.ng-enter-stagger{
+  transition-delay: 2000ms;
+  transition-duration: 2s;
+}
+
+
+
+.fade-in.ng-enter{
+  opacity: 0;
+}
+.fade-in.ng-enter.ng-enter-active{
+  opacity: 1;
+}
+
+
+.fade-in.ng-leave{
+  opacity: 0;
+}
+.fade-in.ng-leave.ng-leave-active{
+  opacity: 1;
+}
+
+
+
+
+
+

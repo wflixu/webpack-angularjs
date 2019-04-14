@@ -119,6 +119,18 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@uirouter/angularjs@^1.0.22":
+  version "1.0.22"
+  resolved "http://registry.npm.taobao.org/@uirouter/angularjs/download/@uirouter/angularjs-1.0.22.tgz#581ab38794a2d7c2790851087072c4066b2b6c46"
+  integrity sha1-WBqzh5Si18J5CFEIcHLEBmsrbEY=
+  dependencies:
+    "@uirouter/core" "5.0.23"
+
+"@uirouter/core@5.0.23":
+  version "5.0.23"
+  resolved "http://registry.npm.taobao.org/@uirouter/core/download/@uirouter/core-5.0.23.tgz#363b4bea635a1b48900dc7e65793a65a3b58a79e"
+  integrity sha1-NjtL6mNaG0iQDcfmV5OmWjtYp54=
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "http://registry.npm.taobao.org/@webassemblyjs/ast/download/@webassemblyjs/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -327,6 +339,18 @@ ajv@^6.1.0:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
+
+angular-animate@^1.7.8:
+  version "1.7.8"
+  resolved "http://registry.npm.taobao.org/angular-animate/download/angular-animate-1.7.8.tgz#c95f237efe7ecfe0e6003adb5e2c7ef0e5a2b9d4"
+  integrity sha1-yV8jfv5+z+DmADrbXix+8OWiudQ=
+
+angular-ui-router@^1.0.22:
+  version "1.0.22"
+  resolved "http://registry.npm.taobao.org/angular-ui-router/download/angular-ui-router-1.0.22.tgz#54a88a06baba576e186fa1b4d5aac913eb4ccb08"
+  integrity sha1-VKiKBrq6V24Yb6G01arJE+tMywg=
+  dependencies:
+    "@uirouter/core" "5.0.23"
 
 angular@^1.7.8:
   version "1.7.8"
@@ -573,6 +597,11 @@ boolbase@~1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/boolbase/download/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
+bootstrap@^4.3.1:
+  version "4.3.1"
+  resolved "http://registry.npm.taobao.org/bootstrap/download/bootstrap-4.3.1.tgz#280ca8f610504d99d7b6b4bfc4b68cec601704ac"
+  integrity sha1-KAyo9hBQTZnXtrS/xLaM7GAXBKw=
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -2386,6 +2415,11 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "http://registry.npm.taobao.org/isobject/download/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+
+jquery@^3.4.0:
+  version "3.4.0"
+  resolved "http://registry.npm.taobao.org/jquery/download/jquery-3.4.0.tgz#8de513fa0fa4b2c7d2e48a530e26f0596936efdf"
+  integrity sha1-jeUT+g+kssfS5IpTDibwWWk2798=
 
 js-tokens@^4.0.0:
   version "4.0.0"

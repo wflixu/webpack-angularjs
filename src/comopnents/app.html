@@ -1,8 +1,10 @@
+<header>
+  <a ui-sref="hello" ui-sref-active="active">Hello</a>
+  <a ui-sref="about" ui-sref-active="active">About</a>
+  <a ui-sref="people" ui-sref-active="active">people</a>
+</header>
 <main>
-  <h1 class="title">Hello from Angular !</h1>
-
-  <!-- Images (and assets) are parsed and loaded from within the public directory -->
-  <img src="/img/logo.png">
+  <ui-view></ui-view>
 </main>
 <footer>
   <a ng-href="{{app.url}}">Webpack Angular Starter</a>
