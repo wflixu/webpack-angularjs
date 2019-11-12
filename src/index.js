@@ -1,4 +1,4 @@
- require('jquery');
+require('jquery');
 import angular from 'angular';
 
 require('./comopnents/hello.js');
@@ -48,10 +48,8 @@ function AppCtrl($scope) {
             // $scope.show = !$scope.show;
             for (let index = 0; index < 5; index++) {
                 $scope.list.push(index);
-
             }
         }
-
     }
 
 
@@ -60,7 +58,6 @@ function AppCtrl($scope) {
 
 
 angular.module(MODULE_NAME, [require('angular-animate'), 'ui.router','comp'])
-
     .config(function ($stateProvider) {
         var helloState = {
             name: 'hello',

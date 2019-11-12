@@ -2,7 +2,7 @@
 
 (function (window, angular) {
     'use strict';
-    angular.module('comp').component('people', {
+    angular.module('comp',[]).component('people', {
     template:  '<h3>{{$ctrl.greeting}} Solar System!</h3>' +
                '<button ng-click="$ctrl.toggleGreeting()">toggle greeting</button>',
              
