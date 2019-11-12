@@ -1,8 +1,9 @@
 require('jquery');
 import angular from 'angular';
+let ngMaterial = require('angular-material');
+
 
 require('./comopnents/hello.js');
-// console.log(people);
 
 import ngAnimation from 'angular-animate';
 // require('angular-animate');
@@ -28,15 +29,11 @@ function AppCtrl($scope) {
     $scope.list = [];
     for (let index = 0; index < 5; index++) {
         $scope.list.push(index);
-
     }
     $scope.add = function () {
 
         $scope.list.push((Math.floor(Math.random() * 1000)));
         $scope.list.push((Math.floor(Math.random() * 1000)));
-
-
-
     }
     $scope.toggle = () => {
         if ($scope.show) {
@@ -51,13 +48,10 @@ function AppCtrl($scope) {
             }
         }
     }
-
-
-
 }
 
 
-angular.module(MODULE_NAME, [require('angular-animate'), 'ui.router','comp'])
+angular.module(MODULE_NAME, [require('angular-animate'), 'ui.router','comp','ngMaterial'])
     .config(function ($stateProvider) {
         var helloState = {
             name: 'hello',
@@ -80,7 +74,6 @@ angular.module(MODULE_NAME, [require('angular-animate'), 'ui.router','comp'])
             url: '/about',
             template: '<h3>Its the UI-Router hello world app!</h3>'
         }
-
         $stateProvider.state(helloState);
         $stateProvider.state(aboutState);
         $stateProvider.state(peopleState);
